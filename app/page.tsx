@@ -451,11 +451,7 @@ export default function Home() {
             </span>
           </div>
           <div>
-            <h3>Foundation</h3>
-            <a href="#about">About Us</a>
-            <a href="#home">Website</a>
-            <button onClick={() => open("foundation")}>Domain</button>
-            <button onClick={() => open("foundation")}>IP Registration</button>
+            
           </div>
           <div>
             <h3>Our initiatives</h3>
