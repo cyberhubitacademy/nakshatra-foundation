@@ -142,7 +142,7 @@ export default function Home() {
               Registration
             </button>
             <button
-              className="button gold small"
+              className="button red small"
               onClick={() => open("donate")}
             >
               <Heart size={16} /> Donate
@@ -164,7 +164,7 @@ export default function Home() {
             <div className="hero-copy">
               <Label>SMALL STEPS. BRIGHTER TOMORROWS.</Label>
               <h1>
-                Every future
+                Every future{" "}
                 <br />
                 deserves
                 <br />
@@ -180,10 +180,10 @@ export default function Home() {
                   Explore initiatives <ArrowUpRight size={18} />
                 </a>
                 <button
-                  className="button outline"
+                  className="button red"
                   onClick={() => open("donate")}
                 >
-                  <Heart size={18} /> Make a difference
+                  <Heart size={18} /> Donate today
                 </button>
               </div>
               <div className="hero-footnote">
@@ -400,7 +400,7 @@ export default function Home() {
                 <br />
                 Help make more of these moments possible.
               </p>
-              <button className="button gold" onClick={() => open("donate")}>
+              <button className="button red" onClick={() => open("donate")}>
                 <Heart size={18} /> Donate for a brighter future{" "}
                 <ArrowUpRight size={18} />
               </button>
@@ -577,7 +577,7 @@ export default function Home() {
                       Registration <ChevronRight />
                     </button>
                     <button
-                      className="button gold"
+                      className="button red"
                       onClick={() => open("donate")}
                     >
                       <Heart size={18} /> Donate
@@ -732,7 +732,7 @@ export default function Home() {
                         <option>Community initiatives</option>
                       </select>
                     </label>
-                    <button type="submit" className="button gold full">
+                    <button type="submit" className="button red full">
                       <Heart size={18} /> Preview {frequency.toLowerCase()}{" "}
                       pledge
                     </button>

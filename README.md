@@ -62,6 +62,8 @@ Official contact details, social profiles, domain, IP registration, programme sc
 
 Search engine indexing is disabled for the demo in `app/layout.tsx`. Before an operational public launch, replace the placeholders with verified information, confirm partner/photography approvals, and update the metadata and indexing policy. Real transactions or accounts would be a separate project outside this frontend-only scope.
 
-## Design tokens
+## Design tokens — red and sky-blue edition
 
-Navy `#0D1E3D`, Deep Navy `#060F21`, Gold `#B3902F`, Bronze `#947316`, Deep Bronze `#543E02`, Ivory `#FBF8F1`, Ivory Deep `#F2EDE2`, White `#FFFFFF`, Black `#000000`, Body `#2B3A55`, Muted `#5D6B85`. Photography retains its natural colors. Theme values and responsive rules live in `app/globals.css`.
+Navy `#0D1E3D`, Bright Red `#E53935`, Sky Blue `#87CEEB`, Ivory `#FAF8F3`, White `#FFFFFF`, Body `#2B3A55`, Muted `#647087`. Sky-tinted and red-tinted backgrounds derive from these accents. Red `#CB302D` is used behind small white button labels for accessible contrast. Gold and bronze have been removed.
+
+This edition redesigns the hero, photograph framing, three focus cards, wide initiative cards, partnership panels, sky-blue support section, navy footer, and frontend dialogs. The original programme coverage, photographs, fonts, licenses, and frontend-only interactions are preserved.
